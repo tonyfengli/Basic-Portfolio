@@ -45,6 +45,7 @@ section {
     margin-right: 16.3%;
     align-content: center;
     overflow: auto;
+    width: 60%;
     
 }
 
@@ -102,4 +103,39 @@ section h2 {
     width: auto;
     height: auto;
     float: left;
+}
+
+@media screen and (max-width: 980px) {
+    section {
+        width: 93%;
+        margin: 3%;
+    }
+    .name {
+        margin-left: 3%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    section {
+        width: 93%;
+        margin: 3%;
+    }
+    .name {
+        margin-left: 3%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    section {
+        width: 93%;
+        margin: 3%;
+    }
+    .name {
+        margin-left: 3%;
+        width:93%;
+    }
+    .navigation {
+        margin-right: 30%;
+
+    }
 }
